@@ -1,13 +1,13 @@
 import { createStore } from 'redux';
+import rootReducer from './rootReducer';
 
-function tempReducer (){
-    return null;
-}
-
+// function tempReducer (){
+//     return null;
+// }
 const rootStore = createStore(
-    tempReducer,
-    window._REDUX_DEVTOOLS_EXTENSION_&& window._REDUX_DEVTOOLS_EXTENSION_()
-    
-    );
+    rootReducer,
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+  );
+  
 
 export default rootStore;
