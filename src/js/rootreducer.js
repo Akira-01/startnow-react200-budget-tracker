@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import expenseReducer from './components/ExpenseEntries/ExpenseReducer';
+import expenseReducer from './components/ExpenseEntries/expenseReducer';
 import incomeReducer from './components/IncomeEntries/incomeReducer';
 
 const rootReducer = combineReducers({
