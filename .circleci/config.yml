@@ -37,7 +37,7 @@ jobs:
       - run: yarn test
 deploy:
     docker:
-      - image: circleci/node:8.11
+      - image: circleci/latest-browsers
     steps:
       - checkout
       - run:
