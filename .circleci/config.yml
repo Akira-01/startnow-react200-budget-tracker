@@ -35,7 +35,7 @@ jobs:
         
       # run tests!
       - run: yarn test
-deploy:
+  deploy:
     docker:
       - image: circleci/node:8.11
     steps:
